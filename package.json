@@ -1,0 +1,21 @@
+{
+  "author": "Aaron Blohowiak",
+  "name": "macros",
+  "version": "0.0.1",
+  "repository": {
+    "url": "git://github.com/aaronblohowiak/macros.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "engines": {
+    "node": "~v0.4.8"
+  },
+  "dependencies": {
+    "aaronblohowiak-plugify-js":"1.0.6"
+  },
+  "devDependencies": {
+    "burrito": "0.2.7"
+  }
+}

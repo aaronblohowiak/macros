@@ -1,0 +1,17 @@
+f getRegex(){
+  return /f(){}/;
+}
+
+obj = {};
+
+obj.getStr = f(){
+  return "f(){}";
+}
+
+module.exports = f(){
+  var a = obj.getStr();
+  var b = getRegex();
+  return [b, a];
+}
+
+module.exports.location = "development.local"
