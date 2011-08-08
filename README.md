@@ -16,6 +16,8 @@ You define a file extension and a suite of filters that accepts source and retur
 
 ## Examples:
 
+All of the steps are demonstrated in [the test file](https://github.com/aaronblohowiak/macros/blob/master/test/test.js)
+
 ### Regex:
 
 Don't you wish JavaScript had easy parse-time string substitution? ;)  Caution: as this is just a straight string substitution, you will probably blow up your code.
